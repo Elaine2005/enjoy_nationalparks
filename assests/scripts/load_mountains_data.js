@@ -1,5 +1,5 @@
 "use strict"
-
+let mountainsDDL = document.querySelector("#mountainSelect")
 let mountainsArray = []
 
 window.onload = function(){

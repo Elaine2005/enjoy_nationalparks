@@ -17,6 +17,7 @@ body{
 h1 {
     color: blue;
 
+
 }
 .e {
     font-size: small;
@@ -45,4 +46,8 @@ h1 {
 }
 .form-select {   font-size: 15px;
     padding: 0% 5% ;
+}
+
+h2 {
+    color: whitesmoke
 }
