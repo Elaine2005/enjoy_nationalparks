@@ -40,4 +40,9 @@ h1 {
     padding: 0% 5% ;
 
 }
-
+.card-body {
+    padding-top: 30%, 
+}
+.form-select {   font-size: 15px;
+    padding: 0% 5% ;
+}
