@@ -1,0 +1,43 @@
+
+body{
+    background-image: url("../images/mountains/new background.jpg");
+    background-size: cover;
+    background-position:0% 100% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 30px;
+    display: block;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.active {
+    color: white;
+}
+
+h1 {
+    color: blue;
+
+}
+.e {
+    font-size: small;
+    background-color: bisque;
+    text-align: center;
+}
+
+
+.card-text {
+    font-size: small;
+}
+.heading-center{
+    color: white;
+    text-align: center;
+}
+.parks{
+    background-color: cornflowerblue;
+    margin:0% 20% 0% 20%;
+}
+.er {  font-size: 15px;
+    padding: 0% 5% ;
+
+}
+
