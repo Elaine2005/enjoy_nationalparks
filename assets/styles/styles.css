@@ -1,0 +1,35 @@
+#hero{
+    border:1px solid black;
+    height: 800px;
+    background-image: url("../images/europe\ -greece.jpg");
+    background-size: cover;
+    background-position:0% 20% ;
+    
+}
+.container {
+    padding: 50px;
+    
+ }
+ .contactinfo {
+     background-color:black;
+     color: white;
+ }
+ .login {
+     background-color: black;
+     color: white;
+ }
+.e {
+    padding: 30px;
+}
+#rome
+{ 
+    padding-bottom: 15px;
+}
+#paris {
+    padding-bottom: 40px;
+}
+.card-img-top {
+    height: 15vw
+}
+
+
