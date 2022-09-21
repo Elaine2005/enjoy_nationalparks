@@ -4,20 +4,15 @@ let filterViewAll = document.querySelector("#viewAllParks")
 let theLocationsUL = document.querySelector("#locations")
 let types = document.querySelector("#types")
 
-//get the dropdown list into the JS file for us to work with
-
+// get the downdwn lsit
 let searchTypeDDL = document.querySelector("#filterOptions");
 
-//get the locations dropdown so we can work with it
 let locationsDDL = document.querySelector("#stateListDropdown")
 
-//get the types dropdown so we can work with it
 let typesDDL = document.querySelector("#parkTypesListDropdown")
 
-// get the view all dropdown option so we can work with it
 let viewAllParks = document.querySelector("#viewAllParks")
 
-// get the cards div into JS for us to work with
 let resultsCardDiv = document.querySelector("#resultCardsDiv")
 
 
@@ -45,7 +40,7 @@ searchTypeDDL.addEventListener("change", function (event) {
     }
 })
 
-// This is a function that populates state dropdown when user selects to search by location
+// Function that populates state/location dropdown
 
 function generateLocationsDDLOptions() {
     locationsDDL.innerHTML = `<option value="">Choose A Location</option>`
@@ -54,7 +49,7 @@ function generateLocationsDDLOptions() {
     });
 }
 
-// This is a function that populates type dropdown when a user selects to search by park type
+// Function that populates parktype dropdown 
 
 function generateTypesDDLOptions() {
     typesDDL.innerHTML = `<option value="">Choose A Park Type</option>`
