@@ -31,7 +31,7 @@ mountains.addEventListener("change", function (event) {
 function generateMountainCard(mountain) {
     mountainc.innerHTML = ""
     let card = ""
-    card += `<div class="card" style="width: 18rem;">`
+    card += `<div class="card" style="width: 18rem; margin:0 auto">`
     card += `<img src="assets/images/mountains/${mountain.img}" class="card-img-top" alt="...">`
     card += `<div class="card-body">`
     card += `     <p class="card-title">${mountain.name}</p>`
