@@ -1,4 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+h1 {
+    font-family: 'Roboto Condensed',  sans-serif
+}
+h2 {
+    font-family: 'Roboto Condensed',  sans-serif
+}
 body{
     background-image: url("../images/mountains/new background.jpg");
     background-size: cover;
@@ -53,3 +59,8 @@ h2 {
 }
 .mb-3 .er {  font-size: 15px;
     padding: 0% 5% ;
+}
+
+
+
+
