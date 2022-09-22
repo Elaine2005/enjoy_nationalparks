@@ -5,6 +5,10 @@ h1 {
 h2 {
     font-family: 'Roboto Condensed',  sans-serif
 }
+h5 {
+    font-family: 'Roboto Condensed',  sans-serif
+}
+
 body{
     background-image: url("../images/mountains/new background.jpg");
     background-size: cover;
